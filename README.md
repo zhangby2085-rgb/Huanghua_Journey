@@ -18,6 +18,8 @@
 
 现在的版本：v1.3（versionCode 4），包名 `com.hanzimaze.huanghua`。
 
+**下载安卓安装包：** [release/HuanghuaLife.apk](https://github.com/zhangby2085-rgb/Huanghua_Journey/raw/main/release/HuanghuaLife.apk)（21 MB）。手机上打开下载的文件安装，第一次要在设置里允许"安装未知来源的应用"。`release/` 里另外两个是旧包：`黄花的生活-六集.apk`（同样是 v1.3）、`黄花的生活-捞月亮.apk`（v1.2，只有前两集）。
+
 ## 在电脑上玩
 
 游戏是一个网页（`huanghua.html` + `huanghua/`），用本地服务器打开：
@@ -51,7 +53,8 @@ JDK 17（默认用 Android Studio 自带的 `jbr`，或者设 `JAVA_HOME`）。�
 | `art/` | 原图：角色、背景，以及 Gemini 画的图（`art/gemini2/` 是第三~六集） |
 | `android/` | `AndroidManifest.xml`、图标、WebView 外壳源码 |
 | `build.ps1` | 打包 APK |
-| `release/`、`演示视频/` | 打包出来的 APK、介绍视频（都不进 git） |
+| `release/` | 打包出来的 APK |
+| `演示视频/` | 介绍视频（不进 git） |
 
 改台词、加关卡、重新生成配音和图片：见 [`dev/README.md`](dev/README.md)。工具要的 Python 包在 `requirements.txt`。
 

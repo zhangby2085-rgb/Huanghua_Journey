@@ -6,9 +6,7 @@ dev/video/_video.mp4
 dev/video/_audio.wav
 dev/video/still_*.jpg
 
-# 打包出来的 APK 和签名
-release/
-*.apk
+# 签名（APK 在 release/ 里，要进 git）
 *.idsig
 *.keystore
 *.jks
