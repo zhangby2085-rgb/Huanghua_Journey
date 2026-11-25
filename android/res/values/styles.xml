@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="warm">#2b1d14</color>
+    <color name="icon_bg">#ffd65c</color>
+    <style name="AppTheme" parent="android:Theme.Material.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@color/warm</item>
+        <item name="android:colorAccent">#ffd23f</item>
+    </style>
+</resources>

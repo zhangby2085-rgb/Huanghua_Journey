@@ -1,0 +1,12 @@
+# dev/ 里的工具要用的 Python 包（游戏本身不用 Python）
+pillow>=10
+numpy>=1.26
+scipy>=1.13              # cut_chars.py 抠图
+edge-tts>=7              # make_audio.py、video/narration.py 合成配音（要联网）
+fonttools>=4.51          # make_audio.py font：字体子集
+brotli>=1.0              # 存成 woff2
+websocket-client>=1.8    # cdp.py、drive.py、video/rec.py 控制无界面 Chrome 做测试和录屏
+
+# 可选：
+# sherpa-onnx>=2.0                          # video/asr_check.py 离线识别检查解说（模型另外下载）
+# torch diffusers transformers accelerate   # paint.py 本机 Stable Diffusion XL（第二集背景）

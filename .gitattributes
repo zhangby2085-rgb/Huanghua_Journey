@@ -1,0 +1,8 @@
+# 生成文件：GitHub 上不显示差异
+huanghua/voice.js linguist-generated=true -diff
+huanghua/data.js linguist-generated=true -diff
+*.ps1 text eol=crlf
+*.webp binary
+*.woff2 binary
+*.ogg binary
+*.mp3 binary
